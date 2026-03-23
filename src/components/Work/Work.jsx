@@ -2,15 +2,19 @@ import React, { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
-  const [visibleProjects, setVisibleProjects] = useState(4);
+  const [visibleProjects, setVisibleProjects] = useState(2);
   const [selectedProject, setSelectedProject] = useState(null);
 
   const handleShowMore = () => {
-    setVisibleProjects((prev) => prev + 4);
+    setVisibleProjects((prev) => prev + 2);
+  };
+
+  const handleShowLess = () => {
+    setVisibleProjects(2);
   };
 
   const openModal = (project) => {
-    setVisibleProjects(4); // Reset visible projects if desired, or keep as is.
+    setVisibleProjects(2); // Reset visible projects if desired, or keep as is.
     setSelectedProject(project);
     document.body.style.overflow = "hidden"; // Prevent background scrolling
   };
@@ -79,15 +83,28 @@ const Work = () => {
         ))}
       </div>
 
-      {/* Show More Button */}
-      {visibleProjects < projects.length && (
+      {/* Show More / Show Less Buttons */}
+      {(visibleProjects < projects.length || visibleProjects > 2) && (
         <div className="flex justify-center mt-12">
-          <button
-            onClick={handleShowMore}
-            className="px-8 py-3 bg-purple-600 hover:bg-purple-800 text-white rounded-xl text-lg font-bold shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:-translate-y-1"
-          >
-            Show More
-          </button>
+          <div className="flex gap-4">
+            {visibleProjects < projects.length && (
+              <button
+                onClick={handleShowMore}
+                className="px-8 py-3 bg-purple-600 hover:bg-purple-800 text-white rounded-xl text-lg font-bold shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:-translate-y-1"
+              >
+                Show More
+              </button>
+            )}
+
+            {visibleProjects > 2 && (
+              <button
+                onClick={handleShowLess}
+                className="px-8 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-xl text-lg font-bold shadow-lg transition-all duration-300 transform hover:-translate-y-1"
+              >
+                Show Less
+              </button>
+            )}
+          </div>
         </div>
       )}
 

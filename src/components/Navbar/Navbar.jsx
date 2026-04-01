@@ -49,11 +49,11 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Ashutosh</span>
+          <span className="text-white">Sudhanshu</span>
           <span className="text-[#8245ec]">/</span>
           <span className="text-white">Kumar</span>
-          <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Yadav</span>
+        
+          <span className="text-white"></span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -76,7 +76,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="https://github.com/Ashutosh-kumar-2004"
+            href="https://github.com/Sudhanshukumar2004"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -84,7 +84,7 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/ashutosh-kumar-yadav-b9b297298/"
+            href=" https://www.linkedin.com/in/sudhanshukumar91/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -92,7 +92,7 @@ const Navbar = () => {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="mailto:ashutoshyadav202004@gmail.com"
+            href="mailto:sk6264323@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-[#8245ec]"
@@ -135,7 +135,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/Ashutosh-kumar-2004"
+                href="https://github.com/Sudhanshukumar2004"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -143,7 +143,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/ashutosh-kumar-yadav-b9b297298/"
+                href="https://www.linkedin.com/in/sudhanshukumar91/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -151,7 +151,7 @@ const Navbar = () => {
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="mailto:ashutoshyadav202004@gmail.com"
+                href="mailto:sk6264323@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-[#8245ec]"

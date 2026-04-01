@@ -40,14 +40,14 @@ import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 
 // Education Section Logo's
 import lpuLogo from "./assets/lpu.webp";
-import apsLogo from "./assets/aps.png";
+import apsLogo from "./assets/grss.jpg";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/image.png";
-import csprepLogo from "./assets/work_logo/image copy.png";
+import githubdetLogo from "./assets/work_logo/meds.jpg";
+import csprepLogo from "./assets/work_logo/vote.jpg";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
 import taskremLogo from "./assets/work_logo/image copy 3.png";
-import npmLogo from "./assets/work_logo/image copy 2.png";
+import npmLogo from "./assets/work_logo/car rental.png";
 import webverLogo from "./assets/work_logo/image copy 4.png";
 import cmLogo from "./assets/work_logo/cm.png";
 import imagesearchLogo from "./assets/work_logo/image_search.png";
@@ -151,101 +151,83 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
-    title: "Productivity Tracker",
+    title: "Med Connect",
     description:
-      "Productivity Tracker is a MERN-based productivity platform featuring task & project management, focus analytics, secure authentication (Email, Google), OTP-based password recovery, JWT authorization, and interactive dashboards.",
+      "MedConnect is a full-stack web application designed to streamline the process of booking medical appointments. The system allows users to schedule appointments through an intuitive interface, while ensuring efficient data handling and storage using a MySQL database. The application focuses on user-friendly design, responsive layout, and reliable backend logic for managing appointment records.",
     image: githubdetLogo,
     tags: [
       "HTML",
       "CSS",
       "JavaScript",
-      "React JS",
-      "Express JS",
-      "MongoDB",
-      "JWT",
-      "Cloudinary",
+      "PHP",
+      "MySQL"
+      
     ],
     github:
-      "https://github.com/Ashutosh-kumar-2004/Time-Analysis-and-Productivity",
-    webapp: "https://time-analysis-and-productivity-q8tt.vercel.app/",
+      "https://github.com/Sudhanshukumar2004/medconnect",
+
   },
   {
     id: 1,
-    title: "Linux File System Simulator",
+    title: "Online Polling System",
     description:
-      "A powerful, web-based Linux terminal and file system simulator that brings the command-line experience to your browser. This project simulates a functional file system structure, allowing users to execute standard Linux commands, manage files, and navigate directories in a safe, virtual environment.",
+      "Online Polling System is a full-stack application where users can create polls and vote in real time.It uses React for frontend, Node.js and MongoDB for backend, and Socket.io for live updates.",
     image: csprepLogo,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Ashutosh-kumar-2004/Linux-Command-Simulator",
-    webapp: "https://ashutosh-kumar-2004.github.io/Linux-Command-Simulator/",
+    tags: ["HTML", "CSS", "JavaScript","NodeJS", "ExpressJS","MongoDB","Socket.io"],
+    github: "https://github.com/Sudhanshukumar2004/Polling_System",
+   
   },
 
   {
     id: 3,
-    title: "Quick Chat",
+    title: "Car Rental",
     description:
-      "A lightweight, real-time chat application for learning and experimentation. quickChat provides a minimal foundation for building chat features — it can be used as a starter project, demo, or playground for real-time communication using WebSockets.",
+      "Car Rental System is a full-stack web application designed to provide users with a seamless platform for browsing available vehicles, booking rentals, and managing reservation details. The application handles backend operations such as vehicle availability, booking records, and user data management using Node.js and MongoDB. The frontend is built with React.js to ensure a responsive and intuitive user experience. The system focuses on efficient data handling, smooth navigation, and real-time updates of booking status.",
     image: npmLogo,
-    tags: ["React JS", "Node.js"],
-    github: "https://github.com/Ashutosh-kumar-2004/quickChat",
-    webapp: "https://quick-chat-five-drab.vercel.app",
-  },
-  {
-    id: 4,
-    title: "Eventify",
-    description:
-      "Built a fully responsive party planning web application with role-based user and admin dashboards to manage hotels, bookings, and customer feedback. Optimized backend logic and MySQL queries for fast, reliable performance, and designed a scalable architecture using reusable UI components and efficient server-side scripts.",
-    image: taskremLogo,
-    tags: ["JavaScript", "PHP", "HTML", "CSS", "MySQL", "Tailwind CSS"],
-    github: "https://github.com/Ashutosh-kumar-2004/Party-Planner",
-  },
-  {
-    id: 5,
-    title: "Secure File Access System",
-    description:
-      "Developed a lightweight, responsive web-based file management system for admin use, enabling real-time viewing, editing, and deletion of files through a dynamic dashboard. Implemented seamless UI updates without page reloads using HTML, CSS, and vanilla JavaScript, ensuring instant visual feedback for file operations.",
-    image: webverLogo,
-    tags: ["HTML", "JavaScript", "PHP", "MySQL", "Tailwind CSS"],
-    github: "https://github.com/Ashutosh-kumar-2004/secure-file-access-system",
-  },
+    tags: ["React JS", "Node.js","ReactJS","NodeJS","ExpressJS","MongoDB"],
+    github: "https://github.com/Sudhanshukumar2004/Car-Rental-management",
+    
+  }
+ 
 ];
 
 export const achievements = [
-  "Solved 500+ DSA problems across LeetCode, GFG and HackerRank",
+  "Solved 200+ DSA problems across LeetCode, GFG and HackerRank",
   "Built multiple full-stack MERN applications",
-  "Participated in coding contests and hackathons",
-  "Active GitHub contributor with consistent commits",
+  "Earned a 5★ Hacker Rank for solving C++ problems.",
+  "Participated in coding contests and hackathons"
+
 ];
 
 export const certificates = [
   {
-    title: "Node.js (Basic)",
+    title: "React.js (Basic)",
     org: "HackerRank",
-    link: "https://www.hackerrank.com/certificates/64b299aa1228",
+    link: "https://www.hackerrank.com/certificates/iframe/b01a1818a238",
     date: "Feb 2026",
   },
+  // {
+  //   title: "Build Generative AI Apps",
+  //   org: "Infosys Springboard",
+  //   link: "https://www.hackerrank.com/certificates/64b299aa1228",
+  //   date: "Aug 2025",
+  // },
   {
-    title: "Build Generative AI Apps",
-    org: "Infosys Springboard",
-    link: "https://www.hackerrank.com/certificates/64b299aa1228",
-    date: "Aug 2025",
-  },
-  {
-    title: "Cloud Computing",
-    org: "NPTEL",
-    link: "https://drive.google.com/file/d/1cvbSFVD4JP1sDX_1461EaMnVKh_93ZoY/view",
-    date: "Jan 2025",
+    title: "Algo University Graph Theory Camp",
+    org: "Algo University",
+    link: "https://d3uam8jk4sa4y4.cloudfront.net/static/certificates/graph_camp/sudhanshu-kumar.png",
+    date: "Feb 2026",
   },
   {
     title: "Object Oriented Programming",
     org: "IamNeo",
-    link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX19o%2FPYdSoZS5OXCTWSRkkB3NFZfStKEQFg%3D",
+    link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX1%2BY5XBSaCOPRwFfbwkSrnGPFuKR5CQmtlQ%3D",
     date: "Aug 2024",
   },
   {
     title: "Object Oriented Programming",
     org: "IamNeo",
-    link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX19o%2FPYdSoZS5OXCTWSRkkB3NFZfStKEQFg%3D",
+    link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX1%2BY6iiY0mQS%2Fu%2BM2Aoc%2FUowQidufuD8Eik%3D",
     date: "Aug 2024",
   },
 ];
@@ -257,27 +239,27 @@ export const educationData = [
     location: "Jalandhar, Punjab",
     degree: "Bachelors of Technology in Computer Science and Engineering",
     duration: "August 2023 - Present",
-    percentage: "CGPA: 8.56 CGPA (Till Date)",
+    percentage: "CGPA: 6.8 CGPA (Till Date)",
     description:
       "Pursuing B.Tech in Computer Science and Engineering, focusing on full-stack web development and modern frameworks like MERN. Actively involved in projects that emphasize performance, scalability, and clean UI/UX design.",
   },
   {
     logo: apsLogo,
-    institution: "Army Public School, Nehru Road",
-    location: "Lucknow, Uttar Pradesh",
+    institution: "Saraswati Vidya Mandir",
+    location: "Bhagalpur, Bihar",
     degree: "Senior Secondary (Class XII)",
-    duration: "April 2021 - March 2022",
-    percentage: "Percentage: 86.4%",
+    duration: "April 2020 - March 2021",
+    percentage: "Percentage: 78%",
     description:
       "Completed higher secondary education in the science stream with a focus on Mathematics and Computer Science. Developed strong analytical and logical reasoning abilities.",
   },
   {
     logo: apsLogo,
-    institution: "Army Public School, Nehru Road",
-    location: "Lucknow, Uttar Pradesh",
+    institution: "Saraswati Vidya Mandir",
+    location: "Bhagalpur, Bihar",
     degree: "Secondary (Class X)",
-    duration: "April 2019 - March 2020",
-    percentage: "Percentage: 90%",
+    duration: "April 2018 - March 2019",
+    percentage: "Percentage: 75%",
     description:
       "Completed foundational education with distinction, sparking an early interest in technology, computers, and logical problem solving.",
   },

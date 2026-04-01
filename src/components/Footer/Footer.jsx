@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
         <h2 className="text-xl font-semibold text-purple-500">
-          Ashutosh Kumar Yadav
+          Sudhanshu Kumar
         </h2>
 
         {/* Navigation Links - Responsive */}
